@@ -226,7 +226,7 @@ a {
 }
 
 .bloc--blue {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta-made-sign.avif");
     background-attachment: fixed;
 }
 
@@ -371,7 +371,7 @@ cite {
 /****************BLOC-3-WHAT-I-DO**********************/
 
 .bloc--orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta-made-sign-orange.avif");
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -463,7 +463,7 @@ cite {
 /*****************BLOC-5-CTA******************/
 
 .bloc--notfix {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta-made-sign.avif");
     text-align: center;
     padding: 40px 0px 60px 0px;
 }
