@@ -1,61 +1,53 @@
 <!doctype html>
-<html lang="Default">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="seo, google, website, internet, web design, design agency, design agency, design agency, design agency, design agency, design agency, logo design atlanta">
-    <meta name="description" content="I'm Mike and your should hire me to build your website">
+	<!-- Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F4CZEQLM4L"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'G-F4CZEQLM4L');
+    </script>
+    <meta name="google-site-verification" content="umtpcNrShPy-SNF6KOe76zpMJq-Q67F477REAAcL6Vc" /> 
+    <!-- Analytics END -->
+	<meta charset="utf-8">
+    <meta name="description" content="Do you want to grow your company based in Atlanta? Let's create and grow your website and define your web strategy together.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="style.min.css">
-	
-	
-	
+	<link rel="stylesheet preload prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" as="style">
+	<link rel="stylesheet preload prefetch" href="style.min.css" as="style">
     
-	<!-- <script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script> -->
-	
-
-
-    <title>.</title>
-
-    
-
- 
-<!-- Analytics END -->
-    
+	<title>GoMikeDesign - Contact me and let's start design!</title>
 </head>
 <body>
 <!-- Main container -->
 
     
 <!-- bloc-0 -->
-<header>
-	<nav class="navbar">
-		<div class="navbar_header">
-			<a href="index.html"><img src="img/atlanta%20web%20design%20logo.png" alt="GoMikeDesign's logo"/></a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<i class="fa-solid fa-bars"></i>	
-			</button>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul class="site-navigation">
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-</header>
+<nav class="navbar">
+	<div class="navbar_header">
+		<a href="index.html"><img src="img/atlanta%20web%20design%20logo.png"  width=210px height=39px alt="GoMikeDesign's logo"/></a>
+        <button aria-label="open-navigation" aria-controls="toggleNavbar" aria-expanded="false" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<i class="fa-solid fa-bars"></i>	
+		</button>
+	</div>
+	<div class="collapse navbar-collapse" id="toggleNavbar" aria-label="Main navigation">
+		<ul class="site-navigation">
+			<li>
+				<a href="index.html" aria-current="page">Home</a>
+			</li>
+			<li>
+				<a href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</div>
+</nav>
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
-<section class="bloc--blue-texture bloc">
+<header class="bloc--blue-texture bloc">
 	<div class="col">
 		<h1>
 			Let's talk web<br> design!
@@ -64,34 +56,34 @@
 			I'm super excited that you want to work together.<br>Please fill in the form below or get in touch so I can learn about your project <br>and we can setup time to talk websites and Atlanta city love.
 		</p>
 	</div>
-</section>
+</header>
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
-<section class="bloc bloc--contact">
+<section class="bloc bloc--contact" role="group" aria-labelledby="contact information">
 			<div class="col">
 				<h2>Message me</h2>
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Name
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Email
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="how_you_find_me">
 							How did you find me?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" name="input_504" required id="how_you_find_me" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
@@ -107,19 +99,14 @@
 				</p>
 			</div>
 </section>
-		<!-- </div>
-	</div>
-</div> -->
 <!-- bloc-7 END -->
-
-
 
 <!-- Footer - bloc-8 -->
 <footer>
 	<p>
 		GoMike Designs - Web designer living and loving Atlanta.<br>
 	</p>
-	<div class="socials">
+	<div class="socials" aria-label="socials links">
 		<div class="social">
 		    <a href="#"><i class="fa-brands fa-twitter"></i><p>Twitter</p></a>
 		</div>
@@ -136,9 +123,6 @@
 </footer>
 <!-- Footer - bloc-8 END -->
 
-
-<!-- Main container END -->
-    
 <script src="js/jquery-3.6.1.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/blocs.min.js"></script>
