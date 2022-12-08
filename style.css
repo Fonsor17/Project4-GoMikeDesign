@@ -551,6 +551,10 @@ footer p {
     text-align: left; 
 }
 
+.bloc--contact a {
+    color: #814B31;
+}
+
 .btn--large {
     width: 100%;
     border-radius: 6px;
